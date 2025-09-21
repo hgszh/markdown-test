@@ -165,40 +165,37 @@ $$V_{n}' = V_{n} - \frac{1}{3} (V_{RA} + V_{LA} + V_{LL}) \quad (n = 1,2,\cdots,
 
 ### 3.2.4.导联数与ADC通道数关系
 
-<table style="border-collapse:collapse; margin:auto; table-layout:auto; width:auto;">
+<table>
   <thead>
     <tr>
-      <th style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">导联数</th>
-      <th style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">导联名称</th>
-      <th style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">所需电极数</th>
-      <th style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">所需ADC通道数</th>
+      <th align="center">导联数</th>
+      <th align="center">导联名称</th>
+      <th align="center">所需电极数</th>
+      <th align="center">所需ADC通道数</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">1</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">Lead I</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">3</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">1</td>
+      <td align="center">1</td>
+      <td align="center">Lead I</td>
+      <td align="center">3</td>
+      <td align="center">1</td>
     </tr>
     <tr>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">6</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">
-        Lead I, Lead II, Lead III,<br>avR, aVL, aVF
-      </td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">4</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">2</td>
+      <td align="center">6</td>
+      <td align="center">Lead I, Lead II, Lead III,<br>avR, aVL, aVF</td>
+      <td align="center">4</td>
+      <td align="center">2</td>
     </tr>
     <tr>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">12</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">
-        Lead I, Lead II, Lead III,<br>avR, aVL, aVF, V1–V6
-      </td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">10</td>
-      <td style="text-align:center; vertical-align:middle; padding:4px 8px; border:1px solid #999;">8</td>
+      <td align="center">12</td>
+      <td align="center">Lead I, Lead II, Lead III,<br>avR, aVL, aVF, V1–V6</td>
+      <td align="center">10</td>
+      <td align="center">8</td>
     </tr>
   </tbody>
 </table>
+
 总结一下，1个ADC通道只能采单导联，2个ADC通道就能覆盖6个肢体导联，8个ADC通道能实现完整12导联（6个肢体导联+6个胸导联）。
 
 <p align="center">
@@ -320,4 +317,5 @@ $$V_{n}' = V_{n} - \frac{1}{3} (V_{RA} + V_{LA} + V_{LL}) \quad (n = 1,2,\cdots,
   老实说，ESP32S3-N16R8的性能和内存可能足以处理低速信号，加入FPGA在成本上不够“优雅”（
 
   但我还是想借这个项目尝试FPGA：一方面是出于学习目的，另一方面也使实现更容易。FPGA的并行架构天然适合实时信号处理，也更便于驱动AD/DA。单片机则可专注UI等任务。如果完全依赖单片机实现，可能需要在程序优化上投入更多精力。
+
 

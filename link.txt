@@ -1,0 +1,16 @@
+https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.106.180200
+https://www.ti.com.cn/cn/lit/ug/zhcu075/zhcu075.pdf
+https://www.ti.com/video/series/how-to-measure-ecg--a-guide-to-the-signals--system-blocks-and-so.html
+https://e2echina.ti.com/cfs-file/__key/telligent-evolution-components-attachments/00-60-00-00-00-00-62-07/TI_5F00_ECG_5F00_Fundamentals_5F00_condensed_5F00_v08.pdf
+https://www.ti.com.cn/cn/lit/an/sbaa185/sbaa185.pdf
+https://www.ti.com.cn/cn/lit/an/sbaa160a/sbaa160a.pdf
+IEC 60601-2-25 (GB 9706.225-2021)
+IEC 60601-2-27 (GB 9706.227-2021)
+IEC 60601-2-47 (YY 9706.247-2021)
+医学仪器：应用与设计  约翰·G.韦伯斯特
+生物医学测量与仪器原理与设计 李天钢、马春排
+现代医学电子仪器原理与设计 余学飞、叶继伦
+上海光电ECG-6951D单道热线阵自动心电图机原理  上海光电医用电子仪器有限公司
+https://www.medteq.net/article/category/ECG+General
+https://zh.wikipedia.org/wiki/%E5%BF%83%E7%94%B5%E6%8F%8F%E8%AE%B0%E6%9C%AF
+https://ecglibrary.com/norm.php
